@@ -1,7 +1,6 @@
 class WordGame
 
-  # Author: Mark Smucker, Shi Jie Tan
-  # Date: June 2020
+  # Author: Shi Jie Tan, Mark Smucker
 
   attr_reader :word, :guesses, :wrong_guesses
   attr_accessor :num_guesses
