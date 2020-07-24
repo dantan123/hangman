@@ -1,0 +1,6 @@
+<% if @game.check_win_or_lose == :win %>
+    <p>You win!</p>
+    <p> The word was "<%= @game.word %>"</p>
+<% end %>
+
+<%= render template: "game/new" %>
